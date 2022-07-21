@@ -1,3 +1,103 @@
-.App {
-  text-align: center;
+body {
+  background-image: url(images/background.png);
+}
+
+div[data-testid=mission-card] {
+  border: white solid 2px;
+}
+
+.system-solar {
+  display: flex;
+}
+
+.page {
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+#root {
+  display: flex;
+}
+
+div[data-testid=mission-card] {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
+
+.system {
+  display: flex;
+  margin-top: 5%;
+}
+
+.title-planet {
+  color: white;
+  display: flex;
+  justify-content: center;
+  border: white solid 3px;
+  margin-top: 8%;
+  width: 50%;
+}
+
+div[data-testid=mission-card] {
+  color: white;
+}
+
+.system-solar:nth-child(1) img {
+  width: 41px;
+  height: 31px;
+  left: 130px;
+  top: 566px;
+}
+
+.system-solar:nth-child(2) img {
+  width: 102px;
+  height: 76px;
+  left: 228px;
+  top: 543px;
+}
+
+.system-solar:nth-child(3) img {
+  width: 106px;
+  height: 79px;
+  left: 369px;
+  top: 542px;
+}
+
+.system-solar:nth-child(4) img {
+  width: 66px;
+  height: 50px;
+  left: 514px;
+  top: 556px;
+}
+
+.system-solar:nth-child(5) img {
+  width: 272px;
+  height: 204px;
+  left: 580px;
+  top: 464px;
+
+}
+
+.system-solar:nth-child(6) img {
+  width: 282.41px;
+  height: 210.9px;
+  left: 785px;
+  top: 493.35px;
+  transform: rotate(-16.53deg);
+}
+
+.system-solar:nth-child(7) img {
+  width: 144px;
+  height: 109px;
+  left: 1068px;
+  top: 522px;
+}
+
+.system-solar:nth-child(8) img {
+  width: 144px;
+  height: 107px;
+  left: 1202px;
+  top: 522px;
 }
